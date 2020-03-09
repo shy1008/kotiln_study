@@ -23,6 +23,11 @@ fun main(array: Array<String>) {
     println(runableCar2.engine)
     runableCar2.body
 
+    println()
+    val testClass = TestClass()
+    testClass.test(1)
+    testClass.test("2")
+
 }
 
 // 클래스 만드는 방법
@@ -106,7 +111,7 @@ class TestClass() {
         println("up")
     }
 
-    fun test(a: String) {
+    fun test(a: String){
         println("down")
     }
 }

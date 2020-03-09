@@ -19,6 +19,7 @@ fun main(array: Array<String>) {
     //배열 꺼내기
     val test1 = group1.get(0)
 
+
     val test2 = group2[2]
     //컨트롤 + p
     //배열값 바꾸기

@@ -35,7 +35,9 @@ fun plusShort(first: Int, second: Int) = first + second
 
 //가변 인자를 갖는 함수 선언 방법
 fun  plusMany(vararg numbers: Int){
-
+    for (number in numbers){
+        println(number)
+    }
 }
 fun main(array: Array<String>) {
 
@@ -45,6 +47,8 @@ fun main(array: Array<String>) {
     val result4 = plusFive(10, 20)
 
     printPlus(50, 20)
+
+    plusMany(1,2,3,4)
 
 
 }
